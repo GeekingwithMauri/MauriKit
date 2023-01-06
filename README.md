@@ -7,4 +7,4 @@ Useful and reusable components related to UI in Swift
 
 - Dequeue your `UITableView`/`UICollectionView` in a typesafe way. Avoid the _guard-let-else_ dance altogether or even worse: the infamous force casting **!**
 
-- [Chris Seidhof's Micro DSL](http://chris.eidhof.nl/post/micro-autolayout-dsl/) auto layout
+- [Chris Eidhof's Micro DSL](http://chris.eidhof.nl/post/micro-autolayout-dsl/) auto layout
