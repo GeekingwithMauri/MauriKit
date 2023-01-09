@@ -1,5 +1,5 @@
 //
-//  LoaderBuilder.swift
+//  LoaderFactory.swift
 //  
 //
 //  Created by Mauricio Chirino on 15/12/20.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-public struct LoaderBuilder {
+public struct LoaderFactory {
     /// Builds an activity indicator with minimum default configuration
     /// - Parameters:
     ///   - style: native style. Defaults to `.large`

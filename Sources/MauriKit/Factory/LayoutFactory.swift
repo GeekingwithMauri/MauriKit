@@ -1,5 +1,5 @@
 //
-//  LayoutBuilder.swift
+//  LayoutFactory.swift
 //  
 //
 //  Created by Mauricio Chirino on 13/12/20.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-public struct LayoutBuilder {
+public struct LayoutFactory {
     /// Returns a 2 x 2 grid layout with dynamic size cells and _standard_ padding between its elements as well as adaptive scrolling behavior [Source](https://developer.apple.com/documentation/uikit/views_and_controls/collection_views/implementing_modern_collection_views)
     /// - Returns: `UICollectionViewCompositionalLayout` assembled grid layout
     /// - Parameter direction: scroll direction. Default `.vertical` type

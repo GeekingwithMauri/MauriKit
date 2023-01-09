@@ -1,5 +1,5 @@
 //
-//  LabelBuilder.swift
+//  LabelFactory.swift
 //  
 //
 //  Created by Mauricio Chirino on 13/12/20.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-public struct LabelBuilder {
+public struct LabelFactory {
     public static func assemble(textStyle: UIFont.TextStyle,
                          fontColor: UIColor = .label,
                          backgroundColor: UIColor = .clear,
