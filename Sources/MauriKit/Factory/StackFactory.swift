@@ -1,5 +1,5 @@
 //
-//  StackBuilder.swift
+//  StackFactory.swift
 //
 //
 //  Created by Mauricio Chirino on 13/12/20.
@@ -27,7 +27,7 @@ public struct StackSetup {
     }
 }
 
-public struct StackBuilder {
+public struct StackFactory {
     public static func assemble(basedOn setup: StackSetup) -> UIStackView {
         let stackView = UIStackView(arrangedSubviews: setup.arrangedSubviews)
         stackView.axis = setup.axis

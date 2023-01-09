@@ -8,7 +8,7 @@
 import UIKit
 
 public struct RefreshFactory {
-    static func assemble(text: String = "",
+    public static func assemble(text: String = "",
                          color: UIColor = .label) -> UIRefreshControl {
         let refresher = UIRefreshControl()
         refresher.translatesAutoresizingMaskIntoConstraints = false
